@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Force-Directed Graph</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <style>
+        /* Optional styling */
+        body {
+            font-family: sans-serif;
+        }
+        svg {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Force-Directed Graph</h1>
+    <div id="graph"></div>
+
+    <script type="module">
+        import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+
+        // Load the graph data from a JSON file
+        d3.json('schema_graph.json').then(graphData => {
+            const graph = ForceGraph(graphData, {
+                nodeId: d => d.id,
+                nodeGroup: d => d.group, // Optional: grouping nodes
+                nodeTitle: d => `Node ${d.id}`,
+                linkStrokeWidth: l => Math.sqrt(l.value), // Optional: width based on link value
+                width: 1000,
+                height: 800
+            });
+
+            // Append the graph to the DOM
+            document.getElementById("graph").appendChild(graph);
+        }).catch(error => {
+            console.error("Error loading the graph data:", error);
+        });
+
+        // Append the graph to the DOM
+        document.getElementById("graph").appendChild(graph);
+    </script>
+<script type="text/javascript" src="force_graph.js"></script>
+</body>
+</html>
