@@ -1,0 +1,367 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "attrs": null,
+    "nodes": [
+        {
+            "id": 1,
+            "data": {
+                "name": "query",
+                "rustworkx_idx": 0
+            }
+        },
+        {
+            "id": 2,
+            "data": {
+                "name": "nonpolymer_entities",
+                "rustworkx_idx": 5
+            }
+        },
+        {
+            "id": 4,
+            "data": {
+                "name": "polymer_entity_groups",
+                "rustworkx_idx": 3
+            }
+        },
+        {
+            "id": 6,
+            "data": {
+                "name": "polymer_entity_instance",
+                "rustworkx_idx": 1
+            }
+        },
+        {
+            "id": 8,
+            "data": {
+                "name": "polymer_entity",
+                "rustworkx_idx": 7
+            }
+        },
+        {
+            "id": 10,
+            "data": {
+                "name": "polymer_entity_instances",
+                "rustworkx_idx": 13
+            }
+        },
+        {
+            "id": 12,
+            "data": {
+                "name": "branched_entities",
+                "rustworkx_idx": 24
+            }
+        },
+        {
+            "id": 14,
+            "data": {
+                "name": "assemblies",
+                "rustworkx_idx": 15
+            }
+        },
+        {
+            "id": 16,
+            "data": {
+                "name": "chem_comp",
+                "rustworkx_idx": 20
+            }
+        },
+        {
+            "id": 18,
+            "data": {
+                "name": "entries",
+                "rustworkx_idx": 22
+            }
+        },
+        {
+            "id": 20,
+            "data": {
+                "name": "branched_entity",
+                "rustworkx_idx": 16
+            }
+        },
+        {
+            "id": 22,
+            "data": {
+                "name": "branched_entity_instances",
+                "rustworkx_idx": 11
+            }
+        },
+        {
+            "id": 24,
+            "data": {
+                "name": "pubmed",
+                "rustworkx_idx": 9
+            }
+        },
+        {
+            "id": 26,
+            "data": {
+                "name": "branched_entity_instance",
+                "rustworkx_idx": 18
+            }
+        },
+        {
+            "id": 28,
+            "data": {
+                "name": "interface",
+                "rustworkx_idx": 4
+            }
+        },
+        {
+            "id": 30,
+            "data": {
+                "name": "polymer_entities",
+                "rustworkx_idx": 6
+            }
+        },
+        {
+            "id": 32,
+            "data": {
+                "name": "assembly",
+                "rustworkx_idx": 10
+            }
+        },
+        {
+            "id": 34,
+            "data": {
+                "name": "group_provenance",
+                "rustworkx_idx": 12
+            }
+        },
+        {
+            "id": 36,
+            "data": {
+                "name": "interfaces",
+                "rustworkx_idx": 14
+            }
+        },
+        {
+            "id": 38,
+            "data": {
+                "name": "nonpolymer_entity",
+                "rustworkx_idx": 27
+            }
+        },
+        {
+            "id": 40,
+            "data": {
+                "name": "uniprot",
+                "rustworkx_idx": 25
+            }
+        },
+        {
+            "id": 42,
+            "data": {
+                "name": "entry",
+                "rustworkx_idx": 21
+            }
+        },
+        {
+            "id": 44,
+            "data": {
+                "name": "nonpolymer_entity_instance",
+                "rustworkx_idx": 19
+            }
+        },
+        {
+            "id": 46,
+            "data": {
+                "name": "polymer_entity_group",
+                "rustworkx_idx": 17
+            }
+        },
+        {
+            "id": 48,
+            "data": {
+                "name": "nonpolymer_entity_instances",
+                "rustworkx_idx": 26
+            }
+        },
+        {
+            "id": 50,
+            "data": {
+                "name": "entry_groups",
+                "rustworkx_idx": 23
+            }
+        },
+        {
+            "id": 52,
+            "data": {
+                "name": "chem_comps",
+                "rustworkx_idx": 2
+            }
+        },
+        {
+            "id": 54,
+            "data": {
+                "name": "entry_group",
+                "rustworkx_idx": 8
+            }
+        }
+    ],
+    "links": [
+        {
+            "source": 1,
+            "target": 2,
+            "id": 2,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "id": 4,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 6,
+            "id": 6,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 8,
+            "id": 8,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 10,
+            "id": 10,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 12,
+            "id": 12,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 14,
+            "id": 14,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 16,
+            "id": 16,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 18,
+            "id": 18,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 20,
+            "id": 20,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 22,
+            "id": 22,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 24,
+            "id": 24,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 26,
+            "id": 26,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 28,
+            "id": 28,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 30,
+            "id": 30,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 32,
+            "id": 32,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 34,
+            "id": 34,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 36,
+            "id": 36,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 38,
+            "id": 38,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 40,
+            "id": 40,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 42,
+            "id": 42,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 44,
+            "id": 44,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 46,
+            "id": 46,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 48,
+            "id": 48,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 50,
+            "id": 50,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 52,
+            "id": 52,
+            "data": null
+        },
+        {
+            "source": 1,
+            "target": 54,
+            "id": 54,
+            "data": null
+        }
+    ]
+}
